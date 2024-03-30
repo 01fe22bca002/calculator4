@@ -19,14 +19,14 @@ class Calculator4
     class Test{
     public static void main(String[] args)
     {
-      ExtendedCalculator4 Calculator7 = new ExtendedCalculator4();
+      ExtendedCalculator4 Calculator4 = new ExtendedCalculator4();
 
-      System.out.println("Addition:"+Calculator7.add(5,3));
-      System.out.println("Substraction:"+Calculator7.sub(5,3));
-      System.out.println("Multiplication:"+Calculator7.Multiply(5,3));
-      System.out.println("Division:"+Calculator7.Divide(5,3));
-      System.out.println("Square:"+Calculator7.Square(5));
-      System.out.println("Cube:"+Calculator7.Cube(5));
+      System.out.println("Addition:"+Calculator4.add(5,3));
+      System.out.println("Substraction:"+Calculator4.sub(5,3));
+      System.out.println("Multiplication:"+Calculator4.Multiply(5,3));
+      System.out.println("Division:"+Calculator4.Divide(5,3));
+      System.out.println("Square:"+Calculator4.Square(5));
+      System.out.println("Cube:"+Calculator4.Cube(5));
 
     }
     }
